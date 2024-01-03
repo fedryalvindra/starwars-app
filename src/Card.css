@@ -1,0 +1,48 @@
+.card-container {
+    width: 109em;
+    background-color: #03045e;
+    border: 2px solid #00b4d8;
+    
+}
+
+.card-content {
+    font-size: 16px;
+    font-family: myFont;
+    padding-left: 20px;
+    color: #ade8f4;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1800px) {
+    .card-container {
+        width: 50em;
+        background-color: #03045e;
+        border: 2px solid #00b4d8;
+        
+    }
+    
+    .card-content {
+        font-size: 12px;
+        font-family: myFont;
+        padding-left: 20px;
+        color: #ade8f4;
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .card-container {
+        width: 17em;
+        background-color: #03045e;
+        border: 2px solid #00b4d8;
+        
+    }
+    
+    .card-content {
+        font-size: 12px;
+        font-family: myFont;
+        padding-left: 20px;
+        color: #ade8f4;
+        letter-spacing: 2px;
+    }
+}

@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: myFont;
+  src: url(Atures900PersonalUseOnly-oZMB.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
+  background-image: url(galaxy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+
+.wrapper-head {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 10px 30px 10px;
+  background-color: #cd1041;
+  border: 1px solid #ffce1f;
+  border-radius: 30px;
+  margin-bottom: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+img {
+  margin-top: -5em;
+  width: 20em;
+}
+
+.header {
+  font-family: myFont;
+  font-weight: 800;
+  font-size: 2.8rem;
+  background: radial-gradient(circle, rgb(255, 221, 0), #ffce1f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  line-height: 1em;
+  padding: 20px;
+}
+
+.loading {
+  font-family: myFont;
+  color: #ffce1f;
+  text-shadow: h-shadow v-shadow blur-radius #cd1041;
+  text-shadow: -3px 2px 0 #cd1041,
+    2px 1px 0 #cd1041,
+    1px -1px 0 #cd1041,
+    -1px -1px 0 #cd1041;
+}
+
+@media only screen and (max-width: 1800px) {
+  img {
+    margin-top: -5em;
+    width: 15em;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header {
+    font-family: myFont;
+    font-weight: 800;
+    font-size: 1.2rem;
+    background: radial-gradient(circle, rgb(255, 221, 0), #ffce1f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper-head {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 5px 30px 5px;
+    background-color: #cd1041;
+    border: 1px solid #ffce1f;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    width: 90%;
+  }
+  
+  img {
+    margin-top: -1.5em;
+    width: 6em;
+  }
+
+  .header {
+    font-family: myFont;
+    font-weight: 800;
+    font-size: 0.8rem;
+    background: radial-gradient(circle, rgb(255, 221, 0), #ffce1f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding: 20px;
   }
 }

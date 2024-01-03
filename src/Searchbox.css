@@ -1,0 +1,41 @@
+.search {
+    font-family: myFont;
+    font-size: 30px;
+    width: 54em;
+    background-color: #ffce1f;
+    border: 1px solid #cd1041;
+    border-radius: 30px;
+    color: #cd1041;
+    padding-left: 1em;
+}
+
+::placeholder {
+    color: #cd1041;
+    opacity: 1; 
+  }
+  
+  @media only screen and (max-width: 1800px) {
+    .search {
+        font-family: myFont;
+        font-size: 25px;
+        width: 25em;
+        background-color: #ffce1f;
+        border: 1px solid #cd1041;
+        border-radius: 30px;
+        color: #cd1041;
+        padding-left: 1em;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .search {
+        font-family: myFont;
+        font-size: 14px;
+        width: 20em;
+        background-color: #ffce1f;
+        border: 1px solid #cd1041;
+        border-radius: 30px;
+        color: #cd1041;
+        padding-left: 1em;
+    }
+  }
